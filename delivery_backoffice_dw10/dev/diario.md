@@ -27,3 +27,25 @@
         - Salva token apenas quando a seção está ativa.
     - Implementar Camada de Autorização de Serviço.
         - Envolve a regra de negócio.
+
+
+### Aula 2 - 10 e 11/05/2023
+- Na primeira parte desta aula, aprendi:
+    - Implementar a rotina de Login
+        - Realizando o Login gravando o access_token na Session Storage
+    - Implementar o BaseLayout
+        - Template
+        - MenuBar
+- Na segunda parte desta aula, aprendi:
+    - Animação de colapse do MenuBar
+    - Implementar base route com RouterOutlet
+        - Definindo onde carregar o template
+            - Baseado nas rotas
+    - Criar PaymentType Module
+        - Criar PatmentTypePage
+        - Rotear via MenuBar
+    - Implementar autenticação via JRS - JSON Rest Server
+        - authInterceptor
+        - GlobalContext
+            - Se o usuário não possui autorização para fazer a requisição deve ser deslogado
+    - Implementar Camada de Pagamento(Payment Data Layer)

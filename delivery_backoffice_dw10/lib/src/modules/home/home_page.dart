@@ -1,9 +1,11 @@
+// ignore_for_file: non_constant_identifier_names, avoid_unnecessary_containers, avoid_types_as_parameter_names
+
 import 'package:flutter/material.dart';
 
 // import '../../core/env/env.dart';
 import '../../core/ui/helpers/loader.dart';
 import '../../core/ui/helpers/messages.dart';
-import '../template/base_layout.dart';
+// import '../template/base_layout.dart';
 // import '../../core/ui/helpers/size_extensions.dart';
 // import '../../core/ui/styles/colors_app.dart';
 // import '../../core/ui/styles/text_styles.dart';

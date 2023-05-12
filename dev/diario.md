@@ -60,3 +60,23 @@
     - Criar modal de criação e alteração de formas de pagamento
     - Filtrar formas de Pagamento
     - Implementar Tela de criação e alteração de pagamento
+
+### Aula 4 - 12/05/2023
+- Na primeira parte desta aula, aprendi:
+    - Criar módulo e rotas de Produtos
+        - Home
+        - Detail
+        - Criar página de Produtos
+            - Home
+            - ProductItem
+        - Implementar Camada de Dados Product
+            - Salvar Produto
+        - Realizar busca de Produtos
+            - JSON Rest Server
+        - Implementar filtro de Produtos
+
+- Na segunda parte desta aula, aprendi:
+    - Criar tela de detalhe do Produto
+        - Upload de imagem do Produto
+        - Salvar Produto na Camada de Dados
+    

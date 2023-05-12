@@ -120,11 +120,11 @@ class _PaymentTypeFormModalState extends State<PaymentTypeFormModal> {
                 children: [
                   Container(
                     height: 60,
-                    padding: EdgeInsets.all(8),
+                    padding: const EdgeInsets.all(8),
                     child: OutlinedButton(
                       onPressed: _closeModal,
                       style: OutlinedButton.styleFrom(
-                        side: BorderSide(color: Colors.red),
+                        side: const BorderSide(color: Colors.red),
                       ),
                       child: Text(
                         'Cancelar',
@@ -136,7 +136,7 @@ class _PaymentTypeFormModalState extends State<PaymentTypeFormModal> {
                   ),
                   Container(
                     height: 60,
-                    padding: EdgeInsets.all(8),
+                    padding: const EdgeInsets.all(8),
                     child: ElevatedButton.icon(
                       onPressed: () {
                         final valid = formKey.currentState?.validate() ?? false;
@@ -154,7 +154,7 @@ class _PaymentTypeFormModalState extends State<PaymentTypeFormModal> {
                         }
                       },
                       icon: const Icon(Icons.save),
-                      label: Text('Salvar'),
+                      label: const Text('Salvar'),
                     ),
                   ),
                 ],

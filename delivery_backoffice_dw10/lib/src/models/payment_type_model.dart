@@ -7,6 +7,7 @@ class PaymentTypeModel {
   final String name;
   final String acronym;
   final bool enabled;
+
   PaymentTypeModel({
     this.id,
     required this.name,

@@ -49,3 +49,14 @@
         - GlobalContext
             - Se o usuário não possui autorização para fazer a requisição deve ser deslogado
     - Implementar Camada de Pagamento(Payment Data Layer)
+
+
+### Aula 3 - 11/05/2023
+- Na primeira parte desta aula, aprendi:
+    - Criar Tela de Pagamentos
+        - BaseHeader
+    - Implementar busca de pagamentos
+- Na segunda parte desta aula, aprendi:
+    - Criar modal de criação e alteração de formas de pagamento
+    - Filtrar formas de Pagamento
+    - Implementar Tela de criação e alteração de pagamento

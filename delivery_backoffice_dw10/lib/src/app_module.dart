@@ -2,6 +2,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 // import './modules/home/home_page.dart';
 import 'modules/core/core_module..dart';
 import 'modules/login/login_module.dart';
+import 'modules/order/order_module.dart';
 import 'modules/paymentType/payment_type_module.dart';
 import 'modules/products/products_module.dart';
 import 'modules/template/base_layout.dart';
@@ -32,6 +33,10 @@ class AppModule extends Module {
             ModuleRoute(
               '/products',
               module: ProductsModule(),
+            ),
+            ModuleRoute(
+              '/order',
+              module: OrderModule(),
             ),
           ],
         ),

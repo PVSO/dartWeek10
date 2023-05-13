@@ -79,4 +79,14 @@
     - Criar tela de detalhe do Produto
         - Upload de imagem do Produto
         - Salvar Produto na Camada de Dados
-    
+
+### Aula 05 - 12 e 13/05/2023
+- Nesta aula, aprendi:
+    - Página de Produto
+        - Implementar CRUD Produto
+    - Criar módulo de pedido
+        - Implementar Tela de Pedidos do dia
+            - Lista de Pedidos
+        - Implementar Camada de Dados Order
+            - Implementar Tela de Pedido
+                - Detalhe de Pedido

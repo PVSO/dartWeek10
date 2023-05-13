@@ -12,7 +12,7 @@ class OrderModel {
   final int userId;
   final String address;
   final String cpf;
-  final int paymentType;
+  final int paymentTypeId;
 
   OrderModel({
     required this.id,
@@ -22,7 +22,7 @@ class OrderModel {
     required this.userId,
     required this.address,
     required this.cpf,
-    required this.paymentType,
+    required this.paymentTypeId,
   });
 
   Map<String, dynamic> toMap() {
@@ -34,7 +34,7 @@ class OrderModel {
       'userId': userId,
       'address': address,
       'cpf': cpf,
-      'paymentType': paymentType,
+      'paymentTypeId': paymentTypeId,
     };
   }
 
@@ -50,8 +50,8 @@ class OrderModel {
       ),
       userId: (map['user_id'] ?? 0) as int,
       address: (map['address'] ?? '') as String,
-      cpf: (map['cpf'] ?? '') as String,
-      paymentType: (map['payment_method_id'] ?? 0) as int,
+      cpf: (map['cpf'] ?? '1') as String,
+      paymentTypeId: (map['payment_method_id'] ?? 0) as int,
     );
   }
 

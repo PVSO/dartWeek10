@@ -82,7 +82,7 @@
 
 ### Aula 05 - 12 e 13/05/2023
 - Nesta aula, aprendi:
-    - Página de Produto
+    - Implementar Página de Produto
         - Implementar CRUD Produto
     - Criar módulo de pedido
         - Implementar Tela de Pedidos do dia
@@ -90,3 +90,16 @@
         - Implementar Camada de Dados Order
             - Implementar Tela de Pedido
                 - Detalhe de Pedido
+
+### Aula 06 - 13/05/2023
+- Nesta aula, aprendi:
+    - Implementar Camada de Dados User
+    - Implementar Camada de Serviço de Order
+        - OrderDto
+            - Conceito de Data Transfer Object
+                - Não representa diretamente o modelo
+                - Utilizado para trafegar entre as camadas
+        - Buscar dados do Pedido
+        - Apresentar dados na tela(modal) de Detalhe
+    - Implementar Lógica dos botões
+    - Implementar filtro de pedidos
